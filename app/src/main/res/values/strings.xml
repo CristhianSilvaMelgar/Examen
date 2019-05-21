@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Conversor de Unidades</string>
+    <string name="Temperatura">Unidades de Temperatura</string>
+    <string name="btnTemperatura1">Centigrados a Fahrenheit</string>
+    <string name="btnTemperatura2">Fahrenheit a Centigrados</string>
+    <string name="btnTemperatura3">Fahrenheit a Kelvin</string>
+    <string name="btnTemperatura4">Centigrados a Kelvin</string>
+    <string name="Unidad">Unidad</string>
+    <string name="resultado">Resultado</string>
+    <string name="Calcular">Calcular</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Units Converter</string>
+    <string name="Temperatura">Temperature Units</string>
+    <string name="btnTemperatura1">Celcius to Fahrenheit</string>
+    <string name="btnTemperatura2">Fahrenheit to Celcius</string>
+    <string name="btnTemperatura3">Fahrenheit to Kelvin</string>
+    <string name="btnTemperatura4">Celcius to Kelvin</string>
+    <string name="Unidad">Unit</string>
+    <string name="resultado">Result</string>
+    <string name="Calcular">Calculate</string>
+</resources>
