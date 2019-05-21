@@ -10,6 +10,9 @@ public class Main2Activity extends AppCompatActivity {
 
     Button calcular;
     EditText Resultado,unit;
+    Double Unidad,Res;
+    String val,codigo;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,9 +21,9 @@ public class Main2Activity extends AppCompatActivity {
         Resultado=findViewById(R.id.textResultado);
         calcular=findViewById(R.id.Calcular);
         unit=findViewById(R.id.Unidad);
-        Double Unidad=Double.parseDouble(unit.getText().toString());
-        final String codigo=bundle.getString("codigo");
-        switch (codigo){
+        Unidad=Double.parseDouble(unit.getText().toString());
+        //codigo=bundle.getString("codigo");
+        /*switch (codigo){
             case "1":
                 this.setTitle(R.string.btnTemperatura1);
                 break;
@@ -40,10 +43,29 @@ public class Main2Activity extends AppCompatActivity {
         calcular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (codigo == "1") {
-
+                switch (codigo){
+                    case "1":
+                        Res=Unidad*2-Unidad/5;
+                        val=String.valueOf(Res);
+                        Resultado.setText(val+" Fº");
+                        break;
+                    case "2":
+                        Res=Unidad*2-Unidad/5;
+                        val=String.valueOf(Res);
+                        Resultado.setText(val+" Fº");
+                        break;
+                    case "3":
+                        Res=Unidad*2-Unidad/5;
+                        val=String.valueOf(Res);
+                        Resultado.setText(val+" Fº");
+                        break;
+                    case "4":
+                        Res=Unidad*2-Unidad/5;
+                        val=String.valueOf(Res);
+                        Resultado.setText(val+" Fº");
+                        break;
                 }
             }
-        });
+        });*/
     }
 }
