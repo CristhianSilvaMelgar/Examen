@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context=".MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
@@ -55,6 +55,109 @@
                 android:textSize="18dp"
                 android:width="200dp"
                 android:id="@+id/btnCenKel"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Area"
+            android:textSize="18dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="2dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnArea1"
+                android:textSize="18dp"
+                android:width="200dp"
+                android:id="@+id/btnHectMet"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnArea2"
+                android:textSize="18dp"
+                android:width="200dp"
+                android:id="@+id/btnMetHect"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="2dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnArea3"
+                android:textSize="18dp"
+                android:width="200dp"
+                android:id="@+id/btnmetKil"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnArea4"
+                android:textSize="18dp"
+                android:width="200dp"
+                android:id="@+id/btnKilMet"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Distancia"
+            android:textSize="18dp"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="2dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnDistancia1"
+                android:textSize="18dp"
+                android:width="200dp"
+                android:id="@+id/btnMetCen"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnDistancia2"
+                android:textSize="18dp"
+                android:width="200dp"
+                android:id="@+id/btnCenMet"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="2dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnDistancia3"
+                android:textSize="18dp"
+                android:width="200dp"
+                android:id="@+id/btnCenInch"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnDistancia4"
+                android:textSize="18dp"
+                android:width="200dp"
+                android:id="@+id/btnInchCen"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

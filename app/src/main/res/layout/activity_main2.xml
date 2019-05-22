@@ -28,9 +28,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/resultado"/>
-        <EditText
+
+        <TextView
+            android:id="@+id/textResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textResultado"/>
+            android:text="@string/Atras"
+            android:id="@+id/Atras"/>
     </LinearLayout>
 </LinearLayout>

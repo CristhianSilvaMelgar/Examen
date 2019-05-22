@@ -3,9 +3,20 @@
     <string name="Temperatura">Unidades de Temperatura</string>
     <string name="btnTemperatura1">Centigrados a Fahrenheit</string>
     <string name="btnTemperatura2">Fahrenheit a Centigrados</string>
-    <string name="btnTemperatura3">Fahrenheit a Kelvin</string>
-    <string name="btnTemperatura4">Centigrados a Kelvin</string>
+    <string name="btnTemperatura3">Centigrados a Kelvin</string>
+    <string name="btnTemperatura4">Kelvin a Centigrados</string>
     <string name="Unidad">Unidad</string>
     <string name="resultado">Resultado</string>
     <string name="Calcular">Calcular</string>
+    <string name="Atras">Atras</string>
+    <string name="Area">Unidades de Area</string>
+    <string name="btnArea1">Hectarea a Metro^2</string>
+    <string name="btnArea2">Metro^2 a Hectarea</string>
+    <string name="btnArea3">Metro^2 a Kilometro^2</string>
+    <string name="btnArea4">Kilometro^2 a Metro^2</string>
+    <string name="Distancia">Unidades de Distancia</string>
+    <string name="btnDistancia1">Metros a Centimetros</string>
+    <string name="btnDistancia2">Centimetros a metros</string>
+    <string name="btnDistancia3">Centimetros a Inch</string>
+    <string name="btnDistancia4">Inch a Centimetros</string>
 </resources>
