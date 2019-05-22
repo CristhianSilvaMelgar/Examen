@@ -5,16 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#E6E6E6">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        android:background="#fff">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Temperatura"
+            android:textColor="#FF4000"
             android:textSize="18dp"/>
         <LinearLayout
             android:layout_width="match_parent"
@@ -27,14 +30,18 @@
                 android:text="@string/btnTemperatura1"
                 android:textSize="18dp"
                 android:width="200dp"
-                android:id="@+id/btnCenFah"/>
+                android:id="@+id/btnCenFah"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#FFF"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/btnTemperatura2"
                 android:textSize="18dp"
                 android:width="200dp"
-                android:id="@+id/btnFahCen"/>
+                android:id="@+id/btnFahCen"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#FFF"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -47,25 +54,31 @@
                 android:text="@string/btnTemperatura3"
                 android:textSize="18dp"
                 android:width="200dp"
-                android:id="@+id/btnFahKel"/>
+                android:id="@+id/btnFahKel"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#FFF"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/btnTemperatura4"
                 android:textSize="18dp"
                 android:width="200dp"
-                android:id="@+id/btnCenKel"/>
+                android:id="@+id/btnCenKel"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#FFF"/>
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        android:background="#fff">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Area"
+            android:textColor="#FF4000"
             android:textSize="18dp"/>
         <LinearLayout
             android:layout_width="match_parent"
@@ -78,14 +91,18 @@
                 android:text="@string/btnArea1"
                 android:textSize="18dp"
                 android:width="200dp"
-                android:id="@+id/btnHectMet"/>
+                android:id="@+id/btnHectMet"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#FFF"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/btnArea2"
                 android:textSize="18dp"
                 android:width="200dp"
-                android:id="@+id/btnMetHect"/>
+                android:id="@+id/btnMetHect"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#FFF"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -98,25 +115,31 @@
                 android:text="@string/btnArea3"
                 android:textSize="18dp"
                 android:width="200dp"
-                android:id="@+id/btnmetKil"/>
+                android:id="@+id/btnmetKil"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#FFF"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/btnArea4"
                 android:textSize="18dp"
                 android:width="200dp"
-                android:id="@+id/btnKilMet"/>
+                android:id="@+id/btnKilMet"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#FFF"/>
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        android:background="#fff">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Distancia"
+            android:textColor="#FF4000"
             android:textSize="18dp"/>
 
     <LinearLayout
@@ -130,14 +153,18 @@
                 android:text="@string/btnDistancia1"
                 android:textSize="18dp"
                 android:width="200dp"
-                android:id="@+id/btnMetCen"/>
+                android:id="@+id/btnMetCen"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#FFF"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/btnDistancia2"
                 android:textSize="18dp"
                 android:width="200dp"
-                android:id="@+id/btnCenMet"/>
+                android:id="@+id/btnCenMet"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#FFF"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -150,14 +177,18 @@
                 android:text="@string/btnDistancia3"
                 android:textSize="18dp"
                 android:width="200dp"
-                android:id="@+id/btnCenInch"/>
+                android:id="@+id/btnCenInch"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#FFF"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/btnDistancia4"
                 android:textSize="18dp"
                 android:width="200dp"
-                android:id="@+id/btnInchCen"/>
+                android:id="@+id/btnInchCen"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#FFF"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

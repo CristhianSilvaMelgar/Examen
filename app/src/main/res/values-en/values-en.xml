@@ -6,8 +6,8 @@
     <string name="btnTemperatura2">Fahrenheit to Celsius</string>
     <string name="btnTemperatura3">Celsius to Kelvin</string>
     <string name="btnTemperatura4">Kelvin to Celsius</string>
-    <string name="Unidad">Unit</string>
-    <string name="resultado">Result</string>
+    <string name="Unidad">Unit:</string>
+    <string name="resultado">Result:</string>
     <string name="Calcular">Calculate</string>
     <string name="Atras">Back</string>
     <string name="Area">Area Units</string>
