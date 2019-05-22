@@ -2,22 +2,24 @@
 <resources>
     <string name="app_name">Units Converter</string>
     <string name="Temperatura">Temperature Units</string>
-    <string name="btnTemperatura1">Celcius to Fahrenheit</string>
-    <string name="btnTemperatura2">Fahrenheit to Celcius</string>
-    <string name="btnTemperatura3">Celcius to Kelvin</string>
-    <string name="btnTemperatura4">Kelvin to Celcius</string>
+    <string name="btnTemperatura1">Celsius to Fahrenheit</string>
+    <string name="btnTemperatura2">Fahrenheit to Celsius</string>
+    <string name="btnTemperatura3">Celsius to Kelvin</string>
+    <string name="btnTemperatura4">Kelvin to Celsius</string>
     <string name="Unidad">Unit</string>
     <string name="resultado">Result</string>
     <string name="Calcular">Calculate</string>
     <string name="Atras">Back</string>
     <string name="Area">Area Units</string>
-    <string name="btnArea1">Hectare to Meter^2</string>
-    <string name="btnArea2">Meter^2 to Kilometer</string>
-    <string name="btnArea3">Meter^2 to Kilometer^2</string>
-    <string name="btnArea4">Kilometer^2 a Meter^2</string>
+    <string name="btnArea1">Hectare to Meters2</string>
+    <string name="btnArea2">Meters2 to Hectare</string>
+    <string name="btnArea3">Meters2 to Kilometers2</string>
+    <string name="btnArea4">Kilometers2 a Meters2</string>
     <string name="Distancia">Distance Units</string>
-    <string name="btnDistancia1">Meter to Centimeter</string>
-    <string name="btnDistancia2">Centimeter to meter</string>
-    <string name="btnDistancia3">Centimeter to Inch</string>
-    <string name="btnDistancia4">Inch a Centimeter</string>
+    <string name="btnDistancia1">Meters to Centimeters</string>
+    <string name="btnDistancia2">Centimeters to Meters</string>
+    <string name="btnDistancia3">Centimeters to Inch</string>
+    <string name="btnDistancia4">Inch to Centimeters</string>
+    <string name="cuadrado">2</string>
+
 </resources>

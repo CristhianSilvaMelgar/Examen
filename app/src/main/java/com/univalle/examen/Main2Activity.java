@@ -5,6 +5,10 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.style.RelativeSizeSpan;
+import android.text.style.SuperscriptSpan;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -47,16 +51,36 @@ public class Main2Activity extends AppCompatActivity {
                 break;
                 //Area
             case "5":
-                this.setTitle(R.string.btnArea1);
+                String cuadrado=getString(R.string.btnArea1);
+                SpannableStringBuilder cs = new SpannableStringBuilder(cuadrado);
+                cs.setSpan(new SuperscriptSpan(), cuadrado.length()-1, cuadrado.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                cs.setSpan(new RelativeSizeSpan(0.75f), cuadrado.length()-1, cuadrado.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                this.setTitle(cs);
                 break;
             case "6":
-                this.setTitle(R.string.btnArea2);
+                String cuadrado1=getString(R.string.btnArea2);
+                SpannableStringBuilder cs1 = new SpannableStringBuilder(cuadrado1);
+                cs1.setSpan(new SuperscriptSpan(), 6,7, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                cs1.setSpan(new RelativeSizeSpan(0.75f), 6, 7, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                this.setTitle(cs1);
                 break;
             case "7":
-                this.setTitle(R.string.btnArea3);
+                String cuadrado2=getString(R.string.btnArea3);
+                SpannableStringBuilder cs2 = new SpannableStringBuilder(cuadrado2);
+                cs2.setSpan(new SuperscriptSpan(), 6,7, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                cs2.setSpan(new RelativeSizeSpan(0.75f), 6, 7, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                cs2.setSpan(new SuperscriptSpan(), cuadrado2.length()-1, cuadrado2.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                cs2.setSpan(new RelativeSizeSpan(0.75f), cuadrado2.length()-1, cuadrado2.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                this.setTitle(cs2);
                 break;
             case "8":
-                this.setTitle(R.string.btnArea4);
+                String cuadrado3=getString(R.string.btnArea4);
+                SpannableStringBuilder cs3 = new SpannableStringBuilder(cuadrado3);
+                cs3.setSpan(new SuperscriptSpan(), 10,11, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                cs3.setSpan(new RelativeSizeSpan(0.75f), 10, 11, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                cs3.setSpan(new SuperscriptSpan(), cuadrado3.length()-1, cuadrado3.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                cs3.setSpan(new RelativeSizeSpan(0.75f), cuadrado3.length()-1, cuadrado3.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                this.setTitle(cs3);
                 break;
                 //Distancia
             case "9":
@@ -89,42 +113,55 @@ public class Main2Activity extends AppCompatActivity {
                     case "1":
                         Res=(Unidad*1.8)+32;
                         val=String.valueOf(Res);
-                        Resultado.setText(val+" Fº");
+                        Resultado.setText(val+" ºF");
                         break;
                     case "2":
                         Res=(Unidad-32)/1.8;
                         val=String.valueOf(Res);
-                        Resultado.setText(val+" Cº");
+                        Resultado.setText(val+" ºC");
                         break;
                     case "3":
                         Res=273.15+Unidad;
                         val=String.valueOf(Res);
-                        Resultado.setText(val+" Fº");
+                        Resultado.setText(val+" ºK");
                         break;
                     case "4":
                         Res=Unidad-273.15;
                         val=String.valueOf(Res);
-                        Resultado.setText(val+" Fº");
+                        Resultado.setText(val+" ºC");
                         break;
                     case "5":
                         Res=Unidad*10000;
                         val=String.valueOf(Res);
-                        Resultado.setText(val+" m^2");
+                        String cuadrado=val+" m2";
+                        SpannableStringBuilder cs = new SpannableStringBuilder(cuadrado);
+                        cs.setSpan(new SuperscriptSpan(), cuadrado.length()-1, cuadrado.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                        cs.setSpan(new RelativeSizeSpan(0.75f), cuadrado.length()-1, cuadrado.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                        Resultado.setText(cs);
+
                         break;
                     case "6":
-                        Res=Unidad*0.0001;
+                        Res=Unidad/10000;
                         val=String.valueOf(Res);
                         Resultado.setText(val+" Hect");
                         break;
                     case "7":
-                        Res=Unidad*0.000001;
+                        Res=Unidad/1000000;
                         val=String.valueOf(Res);
-                        Resultado.setText(val+" Km^2");
+                        String cuadrado1=val+" km2";
+                        SpannableStringBuilder cs1 = new SpannableStringBuilder(cuadrado1);
+                        cs1.setSpan(new SuperscriptSpan(), cuadrado1.length()-1, cuadrado1.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                        cs1.setSpan(new RelativeSizeSpan(0.75f), cuadrado1.length()-1, cuadrado1.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                        Resultado.setText(cs1);
                         break;
                     case "8":
                         Res=Unidad*1000000;
                         val=String.valueOf(Res);
-                        Resultado.setText(val+" m^2");
+                        String cuadrado3=val+" m2";
+                        SpannableStringBuilder cs3 = new SpannableStringBuilder(cuadrado3);
+                        cs3.setSpan(new SuperscriptSpan(), cuadrado3.length()-1, cuadrado3.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                        cs3.setSpan(new RelativeSizeSpan(0.75f), cuadrado3.length()-1, cuadrado3.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                        Resultado.setText(cs3);
                         break;
                     //Distancia
                     case "9":
@@ -181,7 +218,7 @@ public class Main2Activity extends AppCompatActivity {
 
         SharedPreferences prefs =
                 getSharedPreferences("MisDatos", Context.MODE_PRIVATE);
-        String UltimoNumero = prefs.getString("Nombre","No Existe");
+        String UltimoNumero = prefs.getString("Nombre","");
 
         unit.setText(UltimoNumero);
     }
